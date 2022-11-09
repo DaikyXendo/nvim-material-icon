@@ -4,6 +4,14 @@
 
 An improved version of [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
 
+## Image
+
+![](./img/file_icon1.png)
+
+## Warning ⚠️⚠️
+
+You need [DaikyXendo/nvim-tree.lua](https://github.com/DaikyXendo/nvim-tree.lua) instead of [nvim-tree/nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
+
 ## Requirements
 
 -   [Nerd fonts](https://www.nerdfonts.com/)
@@ -16,7 +24,7 @@ Plug 'DaikyXendo/nvim-material-icon'
 
 or with [packer.nvim](https://github.com/wbthomason/packer.nvim)
 
-```
+```lua
 use 'DaikyXendo/nvim-material-icon'
 ```
 
