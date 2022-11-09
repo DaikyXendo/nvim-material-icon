@@ -1,6 +1,6 @@
 # Nvim-material-icon
 
-## 273 file types supported
+## 277 file types supported
 
 An improved version of [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
 

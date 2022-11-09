@@ -751,9 +751,9 @@ local icons = {
         name = "Lhs",
     },
     ["license"] = {
-        icon = "",
-        color = "#cbcb41",
-        cterm_color = "185",
+        icon = "",
+        color = "#ff5722",
+        cterm_color = "202",
         name = "License",
     },
     ["lua"] = {
@@ -901,15 +901,15 @@ local icons = {
         name = "Php",
     },
     ["pl"] = {
-        icon = "",
-        color = "#519aba",
-        cterm_color = "67",
+        icon = "﨩",
+        color = "#9575cd",
+        cterm_color = "104",
         name = "Pl",
     },
     ["pm"] = {
-        icon = "",
-        color = "#519aba",
-        cterm_color = "67",
+        icon = "﨩",
+        color = "#9575cd",
+        cterm_color = "104",
         name = "Pm",
     },
     ["png"] = {
@@ -1058,8 +1058,8 @@ local icons = {
     },
     ["scala"] = {
         icon = "",
-        color = "#cc3e44",
-        cterm_color = "167",
+        color = "#f44336",
+        cterm_color = "203",
         name = "Scala",
     },
     ["scm"] = {
@@ -1075,9 +1075,9 @@ local icons = {
         name = "Scss",
     },
     ["sh"] = {
-        icon = "",
-        color = "#4d5a5e",
-        cterm_color = "240",
+        icon = "",
+        color = "#ff7043",
+        cterm_color = "203",
         name = "Sh",
     },
     ["sig"] = {
@@ -1639,6 +1639,31 @@ local icons = {
         cterm_color = "37",
         name = "Robot",
     },
+    ["CONTRIBUTING.md"] = {
+        icon = "",
+        color = "#ffca28",
+        cterm_color = "220",
+        name = "CONTRIBUTING.md",
+    },
+    ["README.md"] = {
+        icon = "",
+        color = "#42a5f5",
+        cterm_color = "75",
+        name = "README.md",
+    },
+    ["razor"] = {
+        icon = "",
+        color = "#42a5f5",
+        cterm_color = "75",
+        name = "razor",
+    },
+    ["sc"] = {
+        icon = "",
+        color = "#f44336",
+        cterm_color = "203",
+        name = "razor",
+    },
+
 }
 
 -- Map of filetypes -> icon names
