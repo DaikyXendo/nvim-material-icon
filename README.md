@@ -12,6 +12,26 @@ An improved version of [nvim-web-devicons](https://github.com/nvim-tree/nvim-web
 
 You need [DaikyXendo/nvim-tree.lua](https://github.com/DaikyXendo/nvim-tree.lua) instead of [nvim-tree/nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
 
+## Override to match with other plugins (thanks [dailoi282702](https://github.com/dailoi280702))
+
+Some plugins are associated with nvim-web-devicons such as [bufferline.nvim](https://github.com/akinsho/bufferline.nvim). You can use below way to override nvim-material-icon over nim-web-devicons
+
+```lua
+local web_devicons_ok, web_devicons = pcall(require, "nvim-web-devicons")
+if not web_devicons_ok then
+	return
+end
+
+local material_icon_ok, material_icon = pcall(require, "nvim-material-icon")
+if not material_icon_ok then
+	return
+end
+
+web_devicons.setup({
+	override = material_icon.get_icons(),
+})
+```
+
 ## Requirements
 
 -   [Nerd fonts](https://www.nerdfonts.com/)
