@@ -6,7 +6,7 @@ An improved version of [nvim-web-devicons](https://github.com/nvim-tree/nvim-web
 
 ## Image
 
-![](https://raw.githubusercontent.com/DaikyXendo/nvim-material-icon/main/.github/img/file_icon1.png)
+![image](https://user-images.githubusercontent.com/46809008/201086772-ccd9bbb5-8810-4237-9e2d-a7d1a32f2355.png)
 
 ## Warning ⚠️⚠️
 
