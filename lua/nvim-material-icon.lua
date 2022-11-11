@@ -1,7 +1,7 @@
 -- When adding new icons, remember to add an entry to the `filetypes` table, if applicable.
 local icons = {
     [".babelrc"] = {
-        icon = "",
+        icon = "",
         color = "#cbcb41",
         cterm_color = "185",
         name = "Babelrc",
@@ -25,7 +25,7 @@ local icons = {
         name = "DsStore",
     },
     [".gitattributes"] = {
-        icon = "",
+        icon = "",
         color = "#41535b",
         cterm_color = "239",
         name = "GitAttributes",
@@ -37,7 +37,7 @@ local icons = {
         name = "GitConfig",
     },
     [".gitignore"] = {
-        icon = "",
+        icon = "",
         color = "#e24329",
         cterm_color = "166",
         name = "GitIgnore",
@@ -49,7 +49,7 @@ local icons = {
         name = "GitlabCI",
     },
     [".gitmodules"] = {
-        icon = "",
+        icon = "",
         color = "#41535b",
         cterm_color = "239",
         name = "GitModules",
@@ -115,7 +115,7 @@ local icons = {
         name = "CMakeLists",
     },
     ["COMMIT_EDITMSG"] = {
-        icon = "",
+        icon = "",
         color = "#41535b",
         cterm_color = "239",
         name = "GitCommit",
@@ -134,8 +134,8 @@ local icons = {
     },
     ["Dockerfile"] = {
         icon = "",
-        color = "#384d54",
-        cterm_color = "238",
+        color = "#0087c9",
+        cterm_color = "32",
         name = "Dockerfile",
     },
     ["Gemfile$"] = {
@@ -144,11 +144,6 @@ local icons = {
         cterm_color = "1",
         name = "Gemfile",
     },
-    ["LICENSE"] = {
-        icon = "",
-        color = "#d0bf41",
-        cterm_color = "179",
-        name = "License",
     },
     ["R"] = {
         icon = "ﳒ",
@@ -398,8 +393,8 @@ local icons = {
     },
     ["dockerfile"] = {
         icon = "",
-        color = "#384d54",
-        cterm_color = "238",
+        color = "#0087c9",
+        cterm_color = "32",
         name = "Dockerfile",
     },
     ["drl"] = {
@@ -631,13 +626,13 @@ local icons = {
         name = "Hs",
     },
     ["htm"] = {
-        icon = "",
+        icon = "",
         color = "#e34c26",
         cterm_color = "166",
         name = "Htm",
     },
     ["html"] = {
-        icon = "",
+        icon = "",
         color = "#e44d26",
         cterm_color = "166",
         name = "Html",
@@ -691,25 +686,25 @@ local icons = {
         name = "Jpg",
     },
     ["js"] = {
-        icon = "",
+        icon = "",
         color = "#efd81d",
         cterm_color = "220",
         name = "Js",
     },
     ["json"] = {
-        icon = "",
+        icon = "ﬥ",
         color = "#cbcb41",
         cterm_color = "185",
         name = "Json",
     },
     ["json5"] = {
-        icon = "ﬥ",
+        icon = "",
         color = "#cbcb41",
         cterm_color = "185",
         name = "Json5",
     },
     ["jsx"] = {
-        icon = "",
+        icon = "ﰆ",
         color = "#519aba",
         cterm_color = "67",
         name = "Jsx",
@@ -750,7 +745,7 @@ local icons = {
         cterm_color = "140",
         name = "Lhs",
     },
-    ["license"] = {
+    ["LICENSE"] = {
         icon = "",
         color = "#ff5722",
         cterm_color = "202",
@@ -853,7 +848,7 @@ local icons = {
         name = "Nix",
     },
     ["node_modules"] = {
-        icon = "",
+        icon = "",
         color = "#E8274B",
         cterm_color = "161",
         name = "NodeModules",
@@ -871,13 +866,13 @@ local icons = {
         name = "OpenTypeFont",
     },
     ['package.json'] = {
-        icon = "",
+        icon = "",
         color = "#8bc34a",
         cterm_color = "113",
         name = "PackageJson"
     },
     ['package-lock.json'] = {
-        icon = "",
+        icon = "",
         color = "#7a0d21",
         cterm_color = "1",
         name = "PackageLockJson"
@@ -895,7 +890,7 @@ local icons = {
         name = "Pdf",
     },
     ["php"] = {
-        icon = "",
+        icon = "",
         color = "#a074c4",
         cterm_color = "140",
         name = "Php",
@@ -961,25 +956,25 @@ local icons = {
         name = "Psd",
     },
     ["py"] = {
-        icon = "",
+        icon = "",
         color = "#ffbc03",
         cterm_color = "214",
         name = "Py",
     },
     ["pyc"] = {
-        icon = "",
+        icon = "",
         color = "#ffe291",
         cterm_color = "222",
         name = "Pyc",
     },
     ["pyd"] = {
-        icon = "",
+        icon = "",
         color = "#ffe291",
         cterm_color = "222",
         name = "Pyd",
     },
     ["pyo"] = {
-        icon = "",
+        icon = "",
         color = "#ffe291",
         cterm_color = "222",
         name = "Pyo",
@@ -1165,7 +1160,7 @@ local icons = {
         name = "Svg",
     },
     ["swift"] = {
-        icon = "",
+        icon = "ﯣ",
         color = "#e37933",
         cterm_color = "173",
         name = "Swift",
@@ -1315,7 +1310,7 @@ local icons = {
         name = "Xml",
     },
     ["xul"] = {
-        icon = "",
+        icon = "",
         color = "#e37933",
         cterm_color = "173",
         name = "Xul",
@@ -1400,19 +1395,19 @@ local icons = {
         name = "Xz",
     },
     ["test.js"] = {
-        icon = "ﭧ",
+        icon = "",
         color = "#ffca28",
         cterm_color = "220",
         name = "TestJavascript",
     },
     ["test.jsx"] = {
-        icon = "ﭧ",
+        icon = "",
         color = "#00bcd4",
         cterm_color = "38",
         name = "TestJavascriptReact",
     },
     ["test.ts"] = {
-        icon = "ﭧ",
+        icon = "",
         color = "#00bcd4",
         cterm_color = "38",
         name = "TestTypescript",
@@ -1508,7 +1503,7 @@ local icons = {
         name = "Arduino",
     },
     ["babel.config.js"] = {
-        icon = "",
+        icon = "",
         color = "#fdd835",
         cterm_color = "221",
         name = "BabelConfig",
@@ -1661,9 +1656,98 @@ local icons = {
         icon = "",
         color = "#f44336",
         cterm_color = "203",
-        name = "razor",
+        name = "sc",
     },
-
+    ["key"] = {
+        icon = "",
+        color = "#26a69a",
+        cterm_color = "36",
+        name = "Key",
+    },
+    ["gmi"] = {
+        icon = "爵",
+        color = "#81c784",
+        cterm_color = "114",
+        name = "gmi",
+    },
+    ["gmni"] = {
+        icon = "爵",
+        color = "#81c784",
+        cterm_color = "114",
+        name = "gmni",
+    },
+    ["gemini"] = {
+        icon = "爵",
+        color = "#81c784",
+        cterm_color = "114",
+        name = "gemini",
+    },
+    ["yang"] = {
+        icon = "ﭾ",
+        color = "#42a5f5",
+        cterm_color = "75",
+        name = "Yang",
+    },
+    ["windi.config.ts"] = {
+        icon = "煮",
+        color = "#42a5f5",
+        cterm_color = "75",
+        name = "windi.config.ts",
+    },
+    ["windi.config.js"] = {
+        icon = "煮",
+        color = "#42a5f5",
+        cterm_color = "75",
+        name = "windi.config.js",
+    },
+    ["xaml"] = {
+        icon = "ﭲ",
+        color = "#42a5f5",
+        cterm_color = "75",
+        name = "xaml",
+    },
+    ["lib"] = {
+        icon = "",
+        color = "#8bc34a",
+        cterm_color = "113",
+        name = "Lib",
+    },
+    ["liquid"] = {
+        icon = "懲",
+        color = "#42a5f5",
+        cterm_color = "75",
+        name = "Liquid",
+    },
+    ["vite.config.js"] = {
+        icon = "",
+        color = "#ffab00",
+        cterm_color = "214",
+        name = "vite.config.js",
+    },
+    ["nuxt.config.js"] = {
+        icon = "行",
+        color = "#00e676",
+        cterm_color = "42",
+        name = "nuxt.config.js",
+    },
+    ["todo"] = {
+        icon = "",
+        color = "#7cb342",
+        cterm_color = "107",
+        name = "todo",
+    },
+    ["http"] = {
+        icon = "爵",
+        color = "#e53935",
+        cterm_color = "167",
+        name = "http",
+    },
+    ["cake"] = {
+        icon = "",
+        color = "#ff7043",
+        cterm_color = "203",
+        name = "cake",
+    },
 }
 
 -- Map of filetypes -> icon names
@@ -1692,7 +1776,6 @@ local filetypes = {
     ["COPYING.LESSER"] = "COPYING.LESSER",
     ["Dockerfile"] = "Dockerfile",
     ["Gemfile$"] = "Gemfile$",
-    ["LICENSE"] = "LICENSE",
     ["R"] = "R",
     ["Rmd"] = "Rmd",
     ["Vagrantfile$"] = "Vagrantfile$",
@@ -1793,7 +1876,7 @@ local filetypes = {
     ["leex"] = "leex",
     ["less"] = "less",
     ["lhs"] = "lhs",
-    ["license"] = "license",
+    ["LICENSE"] = "LICENSE",
     ["lua"] = "lua",
     ["luau"] = "luau",
     ["makefile"] = "makefile",
@@ -1813,6 +1896,8 @@ local filetypes = {
     ["node_modules"] = "node_modules",
     ["opus"] = "opus",
     ["otf"] = "otf",
+    ["package.json"] = "package.json",
+    ["package-lock.json"] = "package-lock.json",
     ["pck"] = "pck",
     ["pdf"] = "pdf",
     ["php"] = "php",
@@ -1939,6 +2024,25 @@ local filetypes = {
     ["rpm"] = "rpm",
     ["robots.txt"] = "robots.txt",
     ["robot"] = "robot",
+    ["CONTRIBUTING.md"] = "CONTRIBUTING.md",
+    ["README.md"] = "README.md",
+    ["razor"] = "razor",
+    ["sc"] = "sc",
+    ["key"] = "key",
+    ["gmi"] = "gmi",
+    ["gmni"] = "gmni",
+    ["gemini"] = "gemini",
+    ["yang"] = "yang",
+    ["windi.config.ts"] = "windi.config.ts",
+    ["windi.config.js"] = "windi.config.js",
+    ["xaml"] = "xaml",
+    ["lib"] = "lib",
+    ["liquid"] = "liquid",
+    ["vite.config.js"] = "vite.config.js",
+    ["nuxt.config.js"] = "nuxt.config.js",
+    ["todo"] = "todo",
+    ["http"] = "http",
+    ["cake"] = "cake",
 }
 
 local default_icon = {
