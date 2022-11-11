@@ -8,7 +8,8 @@ An improved version of [nvim-web-devicons](https://github.com/nvim-tree/nvim-web
 
 ## Image
 
-![image](https://user-images.githubusercontent.com/46809008/201086772-ccd9bbb5-8810-4237-9e2d-a7d1a32f2355.png)
+![image](https://user-images.githubusercontent.com/46809008/201246284-316406cb-251c-484a-8c61-1d3f9390fdcb.png)
+
 
 ## Warning ⚠️⚠️
 
