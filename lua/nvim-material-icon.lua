@@ -144,7 +144,6 @@ local icons = {
         cterm_color = "1",
         name = "Gemfile",
     },
-    },
     ["R"] = {
         icon = "ﳒ",
         color = "#358a5b",
