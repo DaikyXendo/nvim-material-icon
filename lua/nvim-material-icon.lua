@@ -894,6 +894,18 @@ local icons = {
         cterm_color = "140",
         name = "Php",
     },
+    -- ["pl"] = {
+    --     icon = "﨩", -- no tor emoji support
+    --     color = "#9575cd",
+    --     cterm_color = "104",
+    --     name = "Pl",
+    -- },
+    -- ["pm"] = {
+    --     icon = "﨩",
+    --     color = "#9575cd",
+    --     cterm_color = "104",
+    --     name = "Pm",
+    -- },
     ["png"] = {
         icon = "",
         color = "#26a69a",
