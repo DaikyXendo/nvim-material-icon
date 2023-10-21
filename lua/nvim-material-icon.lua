@@ -745,7 +745,7 @@ local icons = {
         name = "Lhs",
     },
     ["LICENSE"] = {
-        icon = "",
+        icon = "󰄤",
         color = "#ff5722",
         cterm_color = "202",
         name = "License",
