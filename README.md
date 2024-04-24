@@ -1,6 +1,6 @@
 # Nvim-material-icon
 
-## 791 file types supported
+## 791 file types supported (require Nerd Font >= 3.0.0)
 
 ## 🎉🎉 Big update! Fix icon, color and add more file types supported
 
