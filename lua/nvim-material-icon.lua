@@ -3684,7 +3684,7 @@ local icons = {
         icon = "",
         color = "#ff7043",
         cterm_color = "203",
-        name = "h++",
+        name = "hpp",
     },
     ["heic"] = {
         icon = "󰈟",
@@ -5482,7 +5482,7 @@ local filetypes = {
     ["guard.js"] = "guard.js",
     ["guard.ts"] = "guard.ts",
     ["gzip"] = "gzip",
-    ["h++"] = "h++",
+    ["h++"] = "hpp",
     ["heic"] = "heic",
     ["heif"] = "heif",
     ["html_vm"] = "html_vm",
@@ -5894,4 +5894,3 @@ return {
     end,
     set_up_highlights = set_up_highlights,
 }
-
