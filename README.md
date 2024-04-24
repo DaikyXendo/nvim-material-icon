@@ -1,6 +1,6 @@
 # Nvim-material-icon
 
-## 291 file types supported
+## 791 file types supported
 
 ## 🎉🎉 Big update! Fix icon, color and add more file types supported
 
@@ -8,12 +8,13 @@ An improved version of [nvim-web-devicons](https://github.com/nvim-tree/nvim-web
 
 ## Image
 
-![image](https://user-images.githubusercontent.com/46809008/201246284-316406cb-251c-484a-8c61-1d3f9390fdcb.png)
+<img src="" width=900 />
 
 
-## Warning ⚠️⚠️
+## 🛑🛑 Warning 🛑🛑
 
-You need [DaikyXendo/nvim-tree.lua](https://github.com/DaikyXendo/nvim-tree.lua) instead of [nvim-tree/nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
+-   You must use the latest version of [Nerd Font (>= v3.0.0)](https://www.nerdfonts.com/). This can break icons in your other plugins!!
+-   You need [DaikyXendo/nvim-tree.lua](https://github.com/DaikyXendo/nvim-tree.lua) instead of [nvim-tree/nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
 
 ## Override to match with other plugins (thanks [dailoi282702](https://github.com/dailoi280702))
 
@@ -34,10 +35,6 @@ web_devicons.setup({
 	override = material_icon.get_icons(),
 })
 ```
-
-## Requirements
-
--   [Nerd fonts](https://www.nerdfonts.com/)
 
 ## Installation
 
