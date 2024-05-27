@@ -5061,12 +5061,6 @@ local icons = {
         cterm_color = "203",
         name = "mojo"
     },
-    ["🔥"] = {
-        icon = "",
-        color = "#ff7043",
-        cterm_color = "203",
-        name = "🔥"
-    },
     ["moon.yml"] = {
         icon = "󰽢",
         color = "#7e57c2",
