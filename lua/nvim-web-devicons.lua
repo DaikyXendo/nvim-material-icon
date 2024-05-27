@@ -5783,19 +5783,19 @@ local icons = {
     },
     ["r"] = {
         icon = "",
-        color = "#1976d3",
+        color = "#1976d3",
         cterm_color = "32",
         name = "r"
     },
     ["rmd"] = {
         icon = "",
-        color = "#1976d3",
+        color = "#1976d3",
         cterm_color = "32",
         name = "rmd"
     },
     [".Rhistory"] = {
         icon = "",
-        color = "#1976d3",
+        color = "#1976d3",
         cterm_color = "32",
         name = ".Rhistory"
     },
