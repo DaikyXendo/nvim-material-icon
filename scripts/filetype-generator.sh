@@ -5,7 +5,7 @@
 set -euo pipefail
 
 function get_icon_names() {
-  curl 'https://github.com/DaikyXendo/nvim-material-icon/blob/main/lua/nvim-material-icon.lua' |
+  curl 'https://github.com/DaikyXendo/nvim-material-icon/blob/main/lua/nvim-web-devicons.lua' |
     lua -e '
       pats={}
       for name in pairs(dofile().get_icons()) do
