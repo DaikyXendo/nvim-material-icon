@@ -4306,19 +4306,19 @@ local icons = {
         name = "jsconfig.json"
     },
     ["js"] = {
-        icon = "",
+        icon = "󰌞",
         color = "#ffca29",
         cterm_color = "220",
         name = "js"
     },
     ["esx"] = {
-        icon = "",
+        icon = "󰌞",
         color = "#ffca29",
         cterm_color = "220",
         name = "esx"
     },
     ["mjs"] = {
-        icon = "",
+        icon = "󰌞",
         color = "#ffca29",
         cterm_color = "220",
         name = "mjs"
@@ -4840,19 +4840,19 @@ local icons = {
         name = "kbuild"
     },
     ["md"] = {
-        icon = "",
+        icon = "",
         color = "#42a5f5",
         cterm_color = "75",
         name = "md"
     },
     ["markdown"] = {
-        icon = "",
+        icon = "",
         color = "#42a5f5",
         cterm_color = "75",
         name = "markdown"
     },
     ["rst"] = {
-        icon = "",
+        icon = "",
         color = "#42a5f5",
         cterm_color = "75",
         name = "rst"
@@ -4876,13 +4876,13 @@ local icons = {
         name = "pom.xml"
     },
     ["svx"] = {
-        icon = "",
+        icon = "",
         color = "#ff5821",
         cterm_color = "202",
         name = "svx"
     },
     ["mdx"] = {
-        icon = "",
+        icon = "",
         color = "#ffca29",
         cterm_color = "220",
         name = "mdx"
@@ -5782,20 +5782,20 @@ local icons = {
         name = "py"
     },
     ["r"] = {
-        icon = "",
-        color = "#1976d3",
+        icon = "",
+        color = "#1976d3",
         cterm_color = "32",
         name = "r"
     },
     ["rmd"] = {
-        icon = "",
-        color = "#1976d3",
+        icon = "",
+        color = "#1976d3",
         cterm_color = "32",
         name = "rmd"
     },
     [".Rhistory"] = {
-        icon = "",
-        color = "#1976d3",
+        icon = "",
+        color = "#1976d3",
         cterm_color = "32",
         name = ".Rhistory"
     },
@@ -7455,11 +7455,11 @@ local icons = {
         cterm_color = "32",
         name = "d.mts"
     },
-    ["env"] = {
+    [".env"] = {
         icon = "󰙪",
         color = "#fbc02d",
         cterm_color = "214",
-        name = "env"
+        name = ".env"
     },
     [".env.defaults"] = {
         icon = "󰙪",
@@ -7624,7 +7624,7 @@ local icons = {
         name = "ts"
     },
     ["url"] = {
-        icon = "",
+        icon = "󰌹",
         color = "#42a5f5",
         cterm_color = "75",
         name = "url"
@@ -10511,7 +10511,6 @@ local filetypes = {
     [".modernizrrc.js"] = ".modernizrrc.js",
     [".modernizrrc.json"] = ".modernizrrc.json",
     ["mojo"] = "mojo",
-    ["🔥"] = "🔥",
     ["moon.yml"] = "moon.yml",
     ["moon"] = "moon",
     ["mxml"] = "mxml",
@@ -10911,7 +10910,7 @@ local filetypes = {
     ["d.ts"] = "d.ts",
     ["d.cts"] = "d.cts",
     ["d.mts"] = "d.mts",
-    ["env"] = "env",
+    [".env"] = ".env",
     [".env.defaults"] = ".env.defaults",
     [".env.example"] = ".env.example",
     [".env.sample"] = ".env.sample",
