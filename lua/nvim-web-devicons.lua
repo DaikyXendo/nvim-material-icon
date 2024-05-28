@@ -63,12 +63,6 @@ local icons = {
         cterm_color = "39",
         name = "ac"
     },
-    ["blend"] = {
-        icon = "",
-        color = "#2ab6f6",
-        cterm_color = "39",
-        name = "blend"
-    },
     ["dxf"] = {
         icon = "",
         color = "#2ab6f6",
@@ -129,11 +123,113 @@ local icons = {
         cterm_color = "39",
         name = "vox"
     },
+    ["blend"] = {
+        icon = "󰂫",
+        color = "#ed8f30",
+        cterm_color = "209",
+        name = "blend"
+    },
     ["abc"] = {
         icon = "󰽰",
         color = "#ff5821",
         cterm_color = "202",
         name = "abc"
+    },
+    ["accdb"] = {
+        icon = "󱎎",
+        color = "#a22936",
+        cterm_color = "125",
+        name = "accdb"
+    },
+    ["accdt"] = {
+        icon = "󱎎",
+        color = "#a22936",
+        cterm_color = "125",
+        name = "accdt"
+    },
+    ["mdb"] = {
+        icon = "󱎎",
+        color = "#a22936",
+        cterm_color = "125",
+        name = "mdb"
+    },
+    ["accda"] = {
+        icon = "󱎎",
+        color = "#a22936",
+        cterm_color = "125",
+        name = "accda"
+    },
+    ["accdc"] = {
+        icon = "󱎎",
+        color = "#a22936",
+        cterm_color = "125",
+        name = "accdc"
+    },
+    ["accde"] = {
+        icon = "󱎎",
+        color = "#a22936",
+        cterm_color = "125",
+        name = "accde"
+    },
+    ["accdp"] = {
+        icon = "󱎎",
+        color = "#a22936",
+        cterm_color = "125",
+        name = "accdp"
+    },
+    ["accdr"] = {
+        icon = "󱎎",
+        color = "#a22936",
+        cterm_color = "125",
+        name = "accdr"
+    },
+    ["accdu"] = {
+        icon = "󱎎",
+        color = "#a22936",
+        cterm_color = "125",
+        name = "accdu"
+    },
+    ["ade"] = {
+        icon = "󱎎",
+        color = "#a22936",
+        cterm_color = "125",
+        name = "ade"
+    },
+    ["adp"] = {
+        icon = "󱎎",
+        color = "#a22936",
+        cterm_color = "125",
+        name = "adp"
+    },
+    ["laccdb"] = {
+        icon = "󱎎",
+        color = "#a22936",
+        cterm_color = "125",
+        name = "laccdb"
+    },
+    ["ldb"] = {
+        icon = "󱎎",
+        color = "#a22936",
+        cterm_color = "125",
+        name = "ldb"
+    },
+    ["mam"] = {
+        icon = "󱎎",
+        color = "#a22936",
+        cterm_color = "125",
+        name = "mam"
+    },
+    ["maq"] = {
+        icon = "󱎎",
+        color = "#a22936",
+        cterm_color = "125",
+        name = "maq"
+    },
+    ["mdw"] = {
+        icon = "󱎎",
+        color = "#a22936",
+        cterm_color = "125",
+        name = "mdw"
     },
     ["ada"] = {
         icon = "󱗆",
@@ -272,6 +368,18 @@ local icons = {
         color = "#f54436",
         cterm_color = "203",
         name = "g4"
+    },
+    ["age"] = {
+        icon = "",
+        color = "#fed836",
+        cterm_color = "221",
+        name = "age"
+    },
+    ["apacheconf"] = {
+        icon = "",
+        color = "#ba2249",
+        cterm_color = "125",
+        name = "apacheconf"
     },
     ["applescript"] = {
         icon = "",
@@ -473,8 +581,8 @@ local icons = {
     },
     ["wav"] = {
         icon = "󰎆",
-        color = "#ee534f",
-        cterm_color = "203",
+        color = "#76b900",
+        cterm_color = "106",
         name = "wav"
     },
     ["authors.md"] = {
@@ -503,26 +611,26 @@ local icons = {
     },
     ["contributors.md"] = {
         icon = "",
-        color = "#f54436",
-        cterm_color = "203",
+        color = "#76b900",
+        cterm_color = "106",
         name = "contributors.md"
     },
     ["contributors.rst"] = {
         icon = "",
-        color = "#f54436",
-        cterm_color = "203",
+        color = "#76b900",
+        cterm_color = "106",
         name = "contributors.rst"
     },
     ["contributors.txt"] = {
         icon = "",
-        color = "#f54436",
-        cterm_color = "203",
+        color = "#76b900",
+        cterm_color = "106",
         name = "contributors.txt"
     },
     ["contributors"] = {
         icon = "",
-        color = "#f54436",
-        cterm_color = "203",
+        color = "#76b900",
+        cterm_color = "106",
         name = "contributors"
     },
     [".autorc"] = {
@@ -915,6 +1023,12 @@ local icons = {
         cterm_color = "221",
         name = "babel-transform.js"
     },
+    ["bats"] = {
+        icon = "󰭟",
+        color = "#d2d2d2",
+        cterm_color = "252",
+        name = "bats"
+    },
     ["bzl"] = {
         icon = "",
         color = "#44a047",
@@ -1011,6 +1125,12 @@ local icons = {
         cterm_color = "203",
         name = "cake"
     },
+    ["Cargo.toml"] = {
+        icon = "",
+        color = "#f3bd83",
+        cterm_color = "216",
+        name = "Cargo.toml"
+    },
     ["cer"] = {
         icon = "󰄤",
         color = "#ff5821",
@@ -1077,125 +1197,65 @@ local icons = {
         cterm_color = "202",
         name = "copyright.txt"
     },
-    ["license"] = {
-        icon = "󰄤",
-        color = "#ff5821",
-        cterm_color = "202",
-        name = "license"
-    },
     ["license-agpl"] = {
         icon = "󰄤",
-        color = "#ff5821",
-        cterm_color = "202",
+        color = "#ab48bc",
+        cterm_color = "133",
         name = "license-agpl"
     },
     ["license-apache"] = {
         icon = "󰄤",
-        color = "#ff5821",
-        cterm_color = "202",
+        color = "#ab48bc",
+        cterm_color = "133",
         name = "license-apache"
     },
     ["license-bsd"] = {
         icon = "󰄤",
-        color = "#ff5821",
-        cterm_color = "202",
+        color = "#ab48bc",
+        cterm_color = "133",
         name = "license-bsd"
     },
     ["license-mit"] = {
         icon = "󰄤",
-        color = "#ff5821",
-        cterm_color = "202",
+        color = "#ab48bc",
+        cterm_color = "133",
         name = "license-mit"
     },
     ["license-gpl"] = {
         icon = "󰄤",
-        color = "#ff5821",
-        cterm_color = "202",
+        color = "#ab48bc",
+        cterm_color = "133",
         name = "license-gpl"
     },
     ["license-lgpl"] = {
         icon = "󰄤",
-        color = "#ff5821",
-        cterm_color = "202",
+        color = "#ab48bc",
+        cterm_color = "133",
         name = "license-lgpl"
     },
     ["license.md"] = {
         icon = "󰄤",
-        color = "#ff5821",
-        cterm_color = "202",
+        color = "#ab48bc",
+        cterm_color = "133",
         name = "license.md"
     },
     ["license.rst"] = {
         icon = "󰄤",
-        color = "#ff5821",
-        cterm_color = "202",
+        color = "#ab48bc",
+        cterm_color = "133",
         name = "license.rst"
     },
     ["license.txt"] = {
         icon = "󰄤",
-        color = "#ff5821",
-        cterm_color = "202",
+        color = "#ab48bc",
+        cterm_color = "133",
         name = "license.txt"
     },
-    ["licence"] = {
+    ["LICENSE"] = {
         icon = "󰄤",
-        color = "#ff5821",
-        cterm_color = "202",
-        name = "licence"
-    },
-    ["licence-agpl"] = {
-        icon = "󰄤",
-        color = "#ff5821",
-        cterm_color = "202",
-        name = "licence-agpl"
-    },
-    ["licence-apache"] = {
-        icon = "󰄤",
-        color = "#ff5821",
-        cterm_color = "202",
-        name = "licence-apache"
-    },
-    ["licence-bsd"] = {
-        icon = "󰄤",
-        color = "#ff5821",
-        cterm_color = "202",
-        name = "licence-bsd"
-    },
-    ["licence-mit"] = {
-        icon = "󰄤",
-        color = "#ff5821",
-        cterm_color = "202",
-        name = "licence-mit"
-    },
-    ["licence-gpl"] = {
-        icon = "󰄤",
-        color = "#ff5821",
-        cterm_color = "202",
-        name = "licence-gpl"
-    },
-    ["licence-lgpl"] = {
-        icon = "󰄤",
-        color = "#ff5821",
-        cterm_color = "202",
-        name = "licence-lgpl"
-    },
-    ["licence.md"] = {
-        icon = "󰄤",
-        color = "#ff5821",
-        cterm_color = "202",
-        name = "licence.md"
-    },
-    ["licence.rst"] = {
-        icon = "󰄤",
-        color = "#ff5821",
-        cterm_color = "202",
-        name = "licence.rst"
-    },
-    ["licence.txt"] = {
-        icon = "󰄤",
-        color = "#ff5821",
-        cterm_color = "202",
-        name = "licence.txt"
+        color = "#ab48bc",
+        cterm_color = "133",
+        name = "LICENSE"
     },
     ["changelog"] = {
         icon = "󱀸",
@@ -1293,22 +1353,34 @@ local icons = {
         cterm_color = "142",
         name = "OWNERS"
     },
+    ["coffeelint.json"] = {
+        icon = "",
+        color = "#339934",
+        cterm_color = "65",
+        name = "coffeelint.json"
+    },
+    [".coffeelintignore"] = {
+        icon = "",
+        color = "#339934",
+        cterm_color = "65",
+        name = ".coffeelintignore"
+    },
     ["coffee"] = {
-        icon = "",
-        color = "#42a5f5",
-        cterm_color = "75",
+        icon = "",
+        color = "#6f4e38",
+        cterm_color = "239",
         name = "coffee"
     },
     ["cson"] = {
-        icon = "",
-        color = "#42a5f5",
-        cterm_color = "75",
+        icon = "",
+        color = "#6f4e38",
+        cterm_color = "239",
         name = "cson"
     },
     ["iced"] = {
-        icon = "",
-        color = "#42a5f5",
-        cterm_color = "75",
+        icon = "",
+        color = "#6f4e38",
+        cterm_color = "239",
         name = "iced"
     },
     ["cfml"] = {
@@ -1551,35 +1623,17 @@ local icons = {
         cterm_color = "203",
         name = "zsh"
     },
-    ["bash"] = {
-        icon = "󰆍",
-        color = "#ff7043",
-        cterm_color = "203",
-        name = "bash"
-    },
     ["bat"] = {
         icon = "󰆍",
         color = "#ff7043",
         cterm_color = "203",
         name = "bat"
     },
-    ["cmd"] = {
-        icon = "󰆍",
-        color = "#ff7043",
-        cterm_color = "203",
-        name = "cmd"
-    },
     ["awk"] = {
         icon = "󰆍",
         color = "#ff7043",
         cterm_color = "203",
         name = "awk"
-    },
-    ["fish"] = {
-        icon = "󰆍",
-        color = "#ff7043",
-        cterm_color = "203",
-        name = "fish"
     },
     ["exp"] = {
         icon = "󰆍",
@@ -1592,6 +1646,24 @@ local icons = {
         color = "#ff7043",
         cterm_color = "203",
         name = "nu"
+    },
+    ["bash"] = {
+        icon = "",
+        color = "#ff7043",
+        cterm_color = "203",
+        name = "bash"
+    },
+    ["cmd"] = {
+        icon = "",
+        color = "#ff7043",
+        cterm_color = "203",
+        name = "cmd"
+    },
+    ["fish"] = {
+        icon = "󰈺",
+        color = "#ff7043",
+        cterm_color = "203",
+        name = "fish"
     },
     ["contributing.md"] = {
         icon = "󰅍",
@@ -1616,6 +1688,18 @@ local icons = {
         color = "#ffca28",
         cterm_color = "220",
         name = "contributing"
+    },
+    ["confluence"] = {
+        icon = "",
+        color = "#2783ff",
+        cterm_color = "33",
+        name = "confluence"
+    },
+    [".coveralls.yml"] = {
+        icon = "",
+        color = "#be564a",
+        cterm_color = "131",
+        name = ".coveralls.yml"
     },
     ["cc"] = {
         icon = "",
@@ -1773,18 +1857,6 @@ local icons = {
         cterm_color = "220",
         name = "pkb"
     },
-    ["accdb"] = {
-        icon = "",
-        color = "#ffca29",
-        cterm_color = "220",
-        name = "accdb"
-    },
-    ["mdb"] = {
-        icon = "",
-        color = "#ffca29",
-        cterm_color = "220",
-        name = "mdb"
-    },
     ["sqlite"] = {
         icon = "",
         color = "#ffca29",
@@ -1856,6 +1928,12 @@ local icons = {
         color = "#ffd550",
         cterm_color = "221",
         name = "dsc"
+    },
+    ["deb"] = {
+        icon = "",
+        color = "#d80651",
+        cterm_color = "161",
+        name = "deb"
     },
     ["dependabot.yml"] = {
         icon = "",
@@ -2601,6 +2679,18 @@ local icons = {
         cterm_color = "75",
         name = ".mailmap"
     },
+    ["el"] = {
+        icon = "",
+        color = "#805eb7",
+        cterm_color = "97",
+        name = "el"
+    },
+    ["elc"] = {
+        icon = "",
+        color = "#805eb7",
+        cterm_color = "97",
+        name = "elc"
+    },
     [".ember-cli"] = {
         icon = "󰬰",
         color = "#ff5821",
@@ -3002,6 +3092,12 @@ local icons = {
         color = "#31b9db",
         cterm_color = "74",
         name = "fsproj"
+    },
+    ["funding.yml"] = {
+        icon = "♥",
+        color = "#db62a2",
+        cterm_color = "169",
+        name = "funding.yml"
     },
     ["gatsby-config.js"] = {
         icon = "󰹃",
@@ -5056,7 +5152,7 @@ local icons = {
         name = ".modernizrrc.json"
     },
     ["mojo"] = {
-        icon = "",
+        icon = "",
         color = "#ff7043",
         cterm_color = "203",
         name = "mojo"
@@ -5127,12 +5223,6 @@ local icons = {
         cterm_color = "71",
         name = "package.json"
     },
-    ["package-lock.json"] = {
-        icon = "",
-        color = "#4caf51",
-        cterm_color = "71",
-        name = "package-lock.json"
-    },
     [".nvmrc"] = {
         icon = "",
         color = "#4caf51",
@@ -5150,6 +5240,12 @@ local icons = {
         color = "#4caf51",
         cterm_color = "71",
         name = ".node-version"
+    },
+    ["package-lock.json"] = {
+        icon = "",
+        color = "#f54436",
+        cterm_color = "203",
+        name = "package-lock.json"
     },
     [".npmignore"] = {
         icon = "",
@@ -5777,9 +5873,15 @@ local icons = {
     },
     ["py"] = {
         icon = "",
-        color = "#3d78aa",
-        cterm_color = "67",
+        color = "#fed836",
+        cterm_color = "221",
         name = "py"
+    },
+    ["qml"] = {
+        icon = "",
+        color = "#42cd52",
+        cterm_color = "77",
+        name = "qml"
     },
     ["r"] = {
         icon = "",
@@ -5819,8 +5921,8 @@ local icons = {
     },
     ["tsx"] = {
         icon = "",
-        color = "#0188d1",
-        cterm_color = "32",
+        color = "#04bcd4",
+        cterm_color = "38",
         name = "tsx"
     },
     ["jsx"] = {
@@ -6208,127 +6310,127 @@ local icons = {
         name = "code-search"
     },
     [".jshintignore"] = {
-        icon = "",
+        icon = "",
         color = "#42a5f5",
         cterm_color = "75",
         name = ".jshintignore"
     },
     [".buildignore"] = {
-        icon = "",
+        icon = "",
         color = "#42a5f5",
         cterm_color = "75",
         name = ".buildignore"
     },
     [".mrconfig"] = {
-        icon = "",
+        icon = "",
         color = "#42a5f5",
         cterm_color = "75",
         name = ".mrconfig"
     },
     [".yardopts"] = {
-        icon = "",
+        icon = "",
         color = "#42a5f5",
         cterm_color = "75",
         name = ".yardopts"
     },
     ["manifest.mf"] = {
-        icon = "",
+        icon = "",
         color = "#42a5f5",
         cterm_color = "75",
         name = "manifest.mf"
     },
     [".clang-format"] = {
-        icon = "",
+        icon = "",
         color = "#42a5f5",
         cterm_color = "75",
         name = ".clang-format"
     },
     [".clang-tidy"] = {
-        icon = "",
+        icon = "",
         color = "#42a5f5",
         cterm_color = "75",
         name = ".clang-tidy"
     },
     ["ini"] = {
-        icon = "",
+        icon = "",
         color = "#42a5f5",
         cterm_color = "75",
         name = "ini"
     },
     ["dlc"] = {
-        icon = "",
+        icon = "",
         color = "#42a5f5",
         cterm_color = "75",
         name = "dlc"
     },
     ["config"] = {
-        icon = "",
+        icon = "",
         color = "#42a5f5",
         cterm_color = "75",
         name = "config"
     },
     ["conf"] = {
-        icon = "",
+        icon = "",
         color = "#42a5f5",
         cterm_color = "75",
         name = "conf"
     },
     ["properties"] = {
-        icon = "",
+        icon = "",
         color = "#42a5f5",
         cterm_color = "75",
         name = "properties"
     },
     ["prop"] = {
-        icon = "",
+        icon = "",
         color = "#42a5f5",
         cterm_color = "75",
         name = "prop"
     },
     ["settings"] = {
-        icon = "",
+        icon = "",
         color = "#42a5f5",
         cterm_color = "75",
         name = "settings"
     },
     ["option"] = {
-        icon = "",
+        icon = "",
         color = "#42a5f5",
         cterm_color = "75",
         name = "option"
     },
     ["props"] = {
-        icon = "",
+        icon = "",
         color = "#42a5f5",
         cterm_color = "75",
         name = "props"
     },
     ["toml"] = {
-        icon = "",
+        icon = "",
         color = "#42a5f5",
         cterm_color = "75",
         name = "toml"
     },
     ["prefs"] = {
-        icon = "",
+        icon = "",
         color = "#42a5f5",
         cterm_color = "75",
         name = "prefs"
     },
     ["sln.dotsettings"] = {
-        icon = "",
+        icon = "",
         color = "#42a5f5",
         cterm_color = "75",
         name = "sln.dotsettings"
     },
     ["sln.dotsettings.user"] = {
-        icon = "",
+        icon = "",
         color = "#42a5f5",
         cterm_color = "75",
         name = "sln.dotsettings.user"
     },
     ["cfg"] = {
-        icon = "",
+        icon = "",
         color = "#42a5f5",
         cterm_color = "75",
         name = "cfg"
@@ -6623,152 +6725,152 @@ local icons = {
     },
     [".svgrrc"] = {
         icon = "",
-        color = "#ffb300",
-        cterm_color = "214",
+        color = "#f57f19",
+        cterm_color = "208",
         name = ".svgrrc"
     },
     [".svgrrc.json"] = {
         icon = "",
-        color = "#ffb300",
-        cterm_color = "214",
+        color = "#f57f19",
+        cterm_color = "208",
         name = ".svgrrc.json"
     },
     [".svgrrc.jsonc"] = {
         icon = "",
-        color = "#ffb300",
-        cterm_color = "214",
+        color = "#f57f19",
+        cterm_color = "208",
         name = ".svgrrc.jsonc"
     },
     [".svgrrc.json5"] = {
         icon = "",
-        color = "#ffb300",
-        cterm_color = "214",
+        color = "#f57f19",
+        cterm_color = "208",
         name = ".svgrrc.json5"
     },
     [".svgrrc.yaml"] = {
         icon = "",
-        color = "#ffb300",
-        cterm_color = "214",
+        color = "#f57f19",
+        cterm_color = "208",
         name = ".svgrrc.yaml"
     },
     [".svgrrc.yml"] = {
         icon = "",
-        color = "#ffb300",
-        cterm_color = "214",
+        color = "#f57f19",
+        cterm_color = "208",
         name = ".svgrrc.yml"
     },
     [".svgrrc.toml"] = {
         icon = "",
-        color = "#ffb300",
-        cterm_color = "214",
+        color = "#f57f19",
+        cterm_color = "208",
         name = ".svgrrc.toml"
     },
     [".svgrrc.js"] = {
         icon = "",
-        color = "#ffb300",
-        cterm_color = "214",
+        color = "#f57f19",
+        cterm_color = "208",
         name = ".svgrrc.js"
     },
     [".svgrrc.mjs"] = {
         icon = "",
-        color = "#ffb300",
-        cterm_color = "214",
+        color = "#f57f19",
+        cterm_color = "208",
         name = ".svgrrc.mjs"
     },
     [".svgrrc.cjs"] = {
         icon = "",
-        color = "#ffb300",
-        cterm_color = "214",
+        color = "#f57f19",
+        cterm_color = "208",
         name = ".svgrrc.cjs"
     },
     [".svgrrc.ts"] = {
         icon = "",
-        color = "#ffb300",
-        cterm_color = "214",
+        color = "#f57f19",
+        cterm_color = "208",
         name = ".svgrrc.ts"
     },
     [".svgrrc.mts"] = {
         icon = "",
-        color = "#ffb300",
-        cterm_color = "214",
+        color = "#f57f19",
+        cterm_color = "208",
         name = ".svgrrc.mts"
     },
     [".svgrrc.cts"] = {
         icon = "",
-        color = "#ffb300",
-        cterm_color = "214",
+        color = "#f57f19",
+        cterm_color = "208",
         name = ".svgrrc.cts"
     },
     ["svgr.config.json"] = {
         icon = "",
-        color = "#ffb300",
-        cterm_color = "214",
+        color = "#f57f19",
+        cterm_color = "208",
         name = "svgr.config.json"
     },
     ["svgr.config.jsonc"] = {
         icon = "",
-        color = "#ffb300",
-        cterm_color = "214",
+        color = "#f57f19",
+        cterm_color = "208",
         name = "svgr.config.jsonc"
     },
     ["svgr.config.json5"] = {
         icon = "",
-        color = "#ffb300",
-        cterm_color = "214",
+        color = "#f57f19",
+        cterm_color = "208",
         name = "svgr.config.json5"
     },
     ["svgr.config.yaml"] = {
         icon = "",
-        color = "#ffb300",
-        cterm_color = "214",
+        color = "#f57f19",
+        cterm_color = "208",
         name = "svgr.config.yaml"
     },
     ["svgr.config.yml"] = {
         icon = "",
-        color = "#ffb300",
-        cterm_color = "214",
+        color = "#f57f19",
+        cterm_color = "208",
         name = "svgr.config.yml"
     },
     ["svgr.config.toml"] = {
         icon = "",
-        color = "#ffb300",
-        cterm_color = "214",
+        color = "#f57f19",
+        cterm_color = "208",
         name = "svgr.config.toml"
     },
     ["svgr.config.js"] = {
         icon = "",
-        color = "#ffb300",
-        cterm_color = "214",
+        color = "#f57f19",
+        cterm_color = "208",
         name = "svgr.config.js"
     },
     ["svgr.config.mjs"] = {
         icon = "",
-        color = "#ffb300",
-        cterm_color = "214",
+        color = "#f57f19",
+        cterm_color = "208",
         name = "svgr.config.mjs"
     },
     ["svgr.config.cjs"] = {
         icon = "",
-        color = "#ffb300",
-        cterm_color = "214",
+        color = "#f57f19",
+        cterm_color = "208",
         name = "svgr.config.cjs"
     },
     ["svgr.config.ts"] = {
         icon = "",
-        color = "#ffb300",
-        cterm_color = "214",
+        color = "#f57f19",
+        cterm_color = "208",
         name = "svgr.config.ts"
     },
     ["svgr.config.mts"] = {
         icon = "",
-        color = "#ffb300",
-        cterm_color = "214",
+        color = "#f57f19",
+        cterm_color = "208",
         name = "svgr.config.mts"
     },
     ["svgr.config.cts"] = {
         icon = "",
-        color = "#ffb300",
-        cterm_color = "214",
+        color = "#f57f19",
+        cterm_color = "208",
         name = "svgr.config.cts"
     },
     ["swagger.json"] = {
@@ -7622,6 +7724,12 @@ local icons = {
         color = "#0188d1",
         cterm_color = "32",
         name = "ts"
+    },
+    ["uproject"] = {
+        icon = "󰦱",
+        color = "#ffffff",
+        cterm_color = "231",
+        name = "uproject"
     },
     ["url"] = {
         icon = "󰌹",
@@ -9365,26 +9473,26 @@ local icons = {
     },
     ["doc"] = {
         icon = "󰈬",
-        color = "#01579b",
-        cterm_color = "25",
+        color = "#0188d1",
+        cterm_color = "32",
         name = "doc"
     },
     ["docx"] = {
         icon = "󰈬",
-        color = "#01579b",
-        cterm_color = "25",
+        color = "#0188d1",
+        cterm_color = "32",
         name = "docx"
     },
     ["rtf"] = {
         icon = "󰈬",
-        color = "#01579b",
-        cterm_color = "25",
+        color = "#0188d1",
+        cterm_color = "32",
         name = "rtf"
     },
     ["odt"] = {
         icon = "󰈬",
-        color = "#01579b",
-        cterm_color = "25",
+        color = "#0188d1",
+        cterm_color = "32",
         name = "odt"
     },
     ["xaml"] = {
@@ -9537,12 +9645,6 @@ local icons = {
         cterm_color = "32",
         name = ".yarn-integrity"
     },
-    ["yarn-error.log"] = {
-        icon = "",
-        color = "#0188d1",
-        cterm_color = "32",
-        name = "yarn-error.log"
-    },
     [".yarnrc.yml"] = {
         icon = "",
         color = "#0188d1",
@@ -9554,6 +9656,12 @@ local icons = {
         color = "#0188d1",
         cterm_color = "32",
         name = ".yarnrc.yaml"
+    },
+    ["yarn-error.log"] = {
+        icon = "",
+        color = "#f54436",
+        cterm_color = "203",
+        name = "yarn-error.log"
     },
     ["zig"] = {
         icon = "",
@@ -9678,7 +9786,6 @@ local filetypes = {
     ["obj"] = "obj",
     ["o"] = "o",
     ["ac"] = "ac",
-    ["blend"] = "blend",
     ["dxf"] = "dxf",
     ["fbx"] = "fbx",
     ["mesh"] = "mesh",
@@ -9689,7 +9796,24 @@ local filetypes = {
     ["vac"] = "vac",
     ["vdp"] = "vdp",
     ["vox"] = "vox",
+    ["blend"] = "blend",
     ["abc"] = "abc",
+    ["accdb"] = "accdb",
+    ["accdt"] = "accdt",
+    ["mdb"] = "mdb",
+    ["accda"] = "accda",
+    ["accdc"] = "accdc",
+    ["accde"] = "accde",
+    ["accdp"] = "accdp",
+    ["accdr"] = "accdr",
+    ["accdu"] = "accdu",
+    ["ade"] = "ade",
+    ["adp"] = "adp",
+    ["laccdb"] = "laccdb",
+    ["ldb"] = "ldb",
+    ["mam"] = "mam",
+    ["maq"] = "maq",
+    ["mdw"] = "mdw",
     ["ada"] = "ada",
     ["adb"] = "adb",
     ["ads"] = "ads",
@@ -9713,6 +9837,8 @@ local filetypes = {
     ["module.js"] = "module.js",
     ["ng-template"] = "ng-template",
     ["g4"] = "g4",
+    ["age"] = "age",
+    ["apacheconf"] = "apacheconf",
     ["applescript"] = "applescript",
     ["ipa"] = "ipa",
     [".DS_Store"] = ".DS_Store",
@@ -9820,6 +9946,7 @@ local filetypes = {
     ["babel-plugin-macros.config.mts"] = "babel-plugin-macros.config.mts",
     ["babel-plugin-macros.config.cts"] = "babel-plugin-macros.config.cts",
     ["babel-transform.js"] = "babel-transform.js",
+    ["bats"] = "bats",
     ["bzl"] = "bzl",
     ["bazel"] = "bazel",
     [".bazelignore"] = ".bazelignore",
@@ -9836,6 +9963,7 @@ local filetypes = {
     ["i"] = "i",
     ["mi"] = "mi",
     ["cake"] = "cake",
+    ["Cargo.toml"] = "Cargo.toml",
     ["cer"] = "cer",
     ["cert"] = "cert",
     ["crt"] = "crt",
@@ -9847,7 +9975,6 @@ local filetypes = {
     ["copyright.md"] = "copyright.md",
     ["copyright.rst"] = "copyright.rst",
     ["copyright.txt"] = "copyright.txt",
-    ["license"] = "license",
     ["license-agpl"] = "license-agpl",
     ["license-apache"] = "license-apache",
     ["license-bsd"] = "license-bsd",
@@ -9857,16 +9984,7 @@ local filetypes = {
     ["license.md"] = "license.md",
     ["license.rst"] = "license.rst",
     ["license.txt"] = "license.txt",
-    ["licence"] = "licence",
-    ["licence-agpl"] = "licence-agpl",
-    ["licence-apache"] = "licence-apache",
-    ["licence-bsd"] = "licence-bsd",
-    ["licence-mit"] = "licence-mit",
-    ["licence-gpl"] = "licence-gpl",
-    ["licence-lgpl"] = "licence-lgpl",
-    ["licence.md"] = "licence.md",
-    ["licence.rst"] = "licence.rst",
-    ["licence.txt"] = "licence.txt",
+    ["LICENSE"] = "LICENSE",
     ["changelog"] = "changelog",
     ["changelog.md"] = "changelog.md",
     ["changelog.rst"] = "changelog.rst",
@@ -9883,6 +10001,8 @@ local filetypes = {
     ["cljc"] = "cljc",
     ["codeowners"] = "codeowners",
     ["OWNERS"] = "OWNERS",
+    ["coffeelint.json"] = "coffeelint.json",
+    [".coffeelintignore"] = ".coffeelintignore",
     ["coffee"] = "coffee",
     ["cson"] = "cson",
     ["iced"] = "iced",
@@ -9926,17 +10046,19 @@ local filetypes = {
     ["csh"] = "csh",
     ["tcsh"] = "tcsh",
     ["zsh"] = "zsh",
-    ["bash"] = "bash",
     ["bat"] = "bat",
-    ["cmd"] = "cmd",
     ["awk"] = "awk",
-    ["fish"] = "fish",
     ["exp"] = "exp",
     ["nu"] = "nu",
+    ["bash"] = "bash",
+    ["cmd"] = "cmd",
+    ["fish"] = "fish",
     ["contributing.md"] = "contributing.md",
     ["contributing.rst"] = "contributing.rst",
     ["contributing.txt"] = "contributing.txt",
     ["contributing"] = "contributing",
+    ["confluence"] = "confluence",
+    [".coveralls.yml"] = ".coveralls.yml",
     ["cc"] = "cc",
     ["cpp"] = "cpp",
     ["cxx"] = "cxx",
@@ -9963,8 +10085,6 @@ local filetypes = {
     ["sql"] = "sql",
     ["pks"] = "pks",
     ["pkb"] = "pkb",
-    ["accdb"] = "accdb",
-    ["mdb"] = "mdb",
     ["sqlite"] = "sqlite",
     ["sqlite3"] = "sqlite3",
     ["pgsql"] = "pgsql",
@@ -9977,6 +10097,7 @@ local filetypes = {
     ["dblite3"] = "dblite3",
     ["debugsymbols"] = "debugsymbols",
     ["dsc"] = "dsc",
+    ["deb"] = "deb",
     ["dependabot.yml"] = "dependabot.yml",
     ["dependabot.yaml"] = "dependabot.yaml",
     ["dhall"] = "dhall",
@@ -10101,6 +10222,8 @@ local filetypes = {
     ["elm"] = "elm",
     ["ics"] = "ics",
     [".mailmap"] = ".mailmap",
+    ["el"] = "el",
+    ["elc"] = "elc",
     [".ember-cli"] = ".ember-cli",
     [".ember-cli.js"] = ".ember-cli.js",
     ["ember-cli-builds.js"] = "ember-cli-builds.js",
@@ -10168,6 +10291,7 @@ local filetypes = {
     ["fsx"] = "fsx",
     ["fsi"] = "fsi",
     ["fsproj"] = "fsproj",
+    ["funding.yml"] = "funding.yml",
     ["gatsby-config.js"] = "gatsby-config.js",
     ["gatsby-config.mjs"] = "gatsby-config.mjs",
     ["gatsby-config.ts"] = "gatsby-config.ts",
@@ -10522,10 +10646,10 @@ local filetypes = {
     ["nimble"] = "nimble",
     ["nix"] = "nix",
     ["package.json"] = "package.json",
-    ["package-lock.json"] = "package-lock.json",
     [".nvmrc"] = ".nvmrc",
     [".esmrc"] = ".esmrc",
     [".node-version"] = ".node-version",
+    ["package-lock.json"] = "package-lock.json",
     [".npmignore"] = ".npmignore",
     [".npmrc"] = ".npmrc",
     ["njk"] = "njk",
@@ -10631,6 +10755,7 @@ local filetypes = {
     ["pure"] = "pure",
     ["purs"] = "purs",
     ["py"] = "py",
+    ["qml"] = "qml",
     ["r"] = "r",
     ["rmd"] = "rmd",
     [".Rhistory"] = ".Rhistory",
@@ -10938,6 +11063,7 @@ local filetypes = {
     [".env.uat"] = ".env.uat",
     ["twig"] = "twig",
     ["ts"] = "ts",
+    ["uproject"] = "uproject",
     ["url"] = "url",
     ["vercel.json"] = "vercel.json",
     [".vercelignore"] = ".vercelignore",
@@ -11257,9 +11383,9 @@ local filetypes = {
     ["yarn.lock"] = "yarn.lock",
     [".yarnclean"] = ".yarnclean",
     [".yarn-integrity"] = ".yarn-integrity",
-    ["yarn-error.log"] = "yarn-error.log",
     [".yarnrc.yml"] = ".yarnrc.yml",
     [".yarnrc.yaml"] = ".yarnrc.yaml",
+    ["yarn-error.log"] = "yarn-error.log",
     ["zig"] = "zig",
     ["zon"] = "zon",
     ["zip"] = "zip",
