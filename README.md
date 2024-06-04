@@ -1,32 +1,34 @@
-# Notice
-Nerd fonts moved some symbols with version 3.0. Version 2.3 is meant for transition, supporting both version 2 and version 3 icons.
+# Nvim-material-icon
 
-Nvim-web-devicons requires version 2.3 or above to work properly. If you are unable to update please use your plugin manager to pin version of nvim-web-dev icons to `nerd-v2-compat` tag.
+## 1624 file types supported (require Nerd Font >= 3.2.0)
 
-# Nvim-web-devicons
+## 🎉🎉 Big update! Now supports nvim-tree, bufferline, lualine...
 
-A `lua` fork of [vim-devicons](https://github.com/ryanoasis/vim-devicons). This plugin provides the same icons _as well as_ colors for each icon.
+An improved version of [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
 
-Light and dark color variants are provided.
+## Image
 
-## Requirements
+<img src="https://github.com/DaikyXendo/nvim-material-icon/assets/46809008/2ed00644-a7b3-4c68-ac65-4490217ff7a3" width=900 />
 
-- [neovim >=0.7.0](https://github.com/neovim/neovim/wiki/Installing-Neovim)
-- [A patched font](https://www.nerdfonts.com/)
+## 🛑🛑 Warning 🛑🛑
+
+-   You must use the latest version of [Nerd Font (>= v3.2.0)](https://www.nerdfonts.com/). This can break icons in your other plugins!!
 
 ## Installation
 
-```vim
-Plug 'nvim-tree/nvim-web-devicons'
+With [packer.nvim](https://github.com/wbthomason/packer.nvim)
+
+```lua
+use 'DaikyXendo/nvim-material-icon'
 ```
 
-or with [packer.nvim](https://github.com/wbthomason/packer.nvim)
+or with [lazy.nvim](https://github.com/folke/lazy.nvim)
 
+```lua
+require('lazy').setup({
+    'DaikyXendo/nvim-material-icon',
+})
 ```
-use 'nvim-tree/nvim-web-devicons'
-```
-
-[![LuaRocks](https://img.shields.io/luarocks/v/nvim-tree/nvim-web-devicons?logo=lua&color=purple)](https://luarocks.org/modules/nvim-tree/nvim-web-devicons)
 
 ## Usage
 
