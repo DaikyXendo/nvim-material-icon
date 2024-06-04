@@ -1,6 +1,6 @@
 # Nvim-material-icon
 
-## 1624 file types supported (require Nerd Font >= 3.2.0)
+## 1625 file types supported (require Nerd Font >= 3.2.0)
 
 ## 🎉🎉 Big update! Now supports nvim-tree, bufferline, lualine...
 
