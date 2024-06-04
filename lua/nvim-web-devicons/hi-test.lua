@@ -73,7 +73,7 @@ local function render_icons(bufnr, l, icons, header)
 
     -- build all icon displays
     for tag, icon in pairs(icons) do
-        local display = IconDisplay:new { tag = tag, name = icon.name, icon = icon.icon }
+        local display = IconDisplay:new({ tag = tag, name = icon.name, icon = icon.icon })
         if display then
             table.insert(displays, display)
             max_tag_len = math.max(max_tag_len, #display.tag)

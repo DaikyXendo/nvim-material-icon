@@ -10,4 +10,3 @@ let &cpo = s:save_cpo
 unlet s:save_cpo
 
 let g:loaded_devicons = 1
-
