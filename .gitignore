@@ -1,6 +1,7 @@
 lua/nvim-material-icon.lua.bak
+lua/nvim-web-devicons.lua.bak
 main.py
-temp.txt
-temp2.txt
-icons.txt
-vsicons.json
+main_2.py
+icons/
+result/
+

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 ## Credit: @B0o (Maddison Hellstrom)
 
@@ -66,3 +66,4 @@ function main() {
 }
 
 main "$@"
+
