@@ -73,7 +73,7 @@ local function render_icons(bufnr, l, icons, header)
 
     -- build all icon displays
     for tag, icon in pairs(icons) do
-        local display = IconDisplay:new { tag = tag, name = icon.name, icon = icon.icon }
+        local display = IconDisplay:new({ tag = tag, name = icon.name, icon = icon.icon })
         if display then
             table.insert(displays, display)
             max_tag_len = math.max(max_tag_len, #display.tag)
@@ -131,6 +131,11 @@ return function(
     render_icons(bufnr, l, icons_by_window_manager, "By Window Manager")
 
     -- finalise and focus the buffer
-    vim.api.nvim_buf_set_option(bufnr, "modifiable", false)
+    if vim.fn.has("nvim-0.10") == 1 then
+        vim.api.nvim_set_option_value("modifiable", false, { buf = bufnr })
+    else
+        vim.api.nvim_buf_set_option(bufnr, "modifiable", false) ---@diagnostic disable-line: deprecated
+    end
     vim.cmd.buffer(bufnr)
 end
+
