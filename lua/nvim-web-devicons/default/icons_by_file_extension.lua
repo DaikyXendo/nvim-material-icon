@@ -3150,7 +3150,7 @@ return {
         name = "spec.jsx",
     },
     ["test.jsx"] = {
-        icon = "",
+        icon = "",
         color = "#ffca29",
         cterm_color = "220",
         name = "test.jsx",
@@ -3173,8 +3173,14 @@ return {
         cterm_color = "32",
         name = "spec.tsx",
     },
-    ["test.tsx"] = {
+    ["test.ts"] = {
         icon = "",
+        color = "#0188d1",
+        cterm_color = "32",
+        name = "test.ts",
+    },
+    ["test.tsx"] = {
+        icon = "",
         color = "#0188d1",
         cterm_color = "32",
         name = "test.tsx",
