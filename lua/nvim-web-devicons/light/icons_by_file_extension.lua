@@ -1,4 +1,10 @@
 return {
+    ["alloy"] = {
+        icon = "",
+        color = "#ff6f00",
+        cterm_color = "208",
+        name = "alloy",
+    },
     ["apex"] = {
         icon = "󰢎",
         color = "#009ce5",
@@ -274,6 +280,12 @@ return {
         color = "#2ab6f6",
         cterm_color = "39",
         name = "vac",
+    },
+    ["vala"] = {
+        icon = "",
+        color = "#9576ce",
+        cterm_color = "105",
+        name = "vala",
     },
     ["vdp"] = {
         icon = "",
@@ -3502,6 +3514,24 @@ return {
         color = "#ab48bc",
         cterm_color = "133",
         name = "suo",
+    },
+    ["swagger.json"] = {
+        icon = "",
+        color = "#44a047",
+        cterm_color = "71",
+        name = "swagger.json",
+    },
+    ["swagger.yml"] = {
+        icon = "",
+        color = "#44a047",
+        cterm_color = "71",
+        name = "swagger.yml",
+    },
+    ["swagger.yaml"] = {
+        icon = "",
+        color = "#44a047",
+        cterm_color = "71",
+        name = "swagger.yaml",
     },
     ["vb"] = {
         icon = "󰘐",
