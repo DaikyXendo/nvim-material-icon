@@ -791,6 +791,42 @@ return {
 		cterm_color = "142",
 		name = "OWNERS",
 	},
+	["openapi.json"] = {
+		icon = "",
+		color = "#8bc34a",
+		cterm_color = "148",
+		name = "openapi.json",
+	},
+	["openapi.yml"] = {
+		icon = "",
+		color = "#8bc34a",
+		cterm_color = "148",
+		name = "openapi.yml",
+	},
+	["openapi.yaml"] = {
+		icon = "",
+		color = "#8bc34a",
+		cterm_color = "148",
+		name = "openapi.yaml",
+	},
+	["swagger.json"] = {
+		icon = "",
+		color = "#8bc34a",
+		cterm_color = "148",
+		name = "swagger.json",
+	},
+	["swagger.yml"] = {
+		icon = "",
+		color = "#8bc34a",
+		cterm_color = "148",
+		name = "swagger.yml",
+	},
+	["swagger.yaml"] = {
+		icon = "",
+		color = "#8bc34a",
+		cterm_color = "148",
+		name = "swagger.yaml",
+	},
 	[".commitlintrc"] = {
 		icon = "",
 		color = "#039688",
@@ -2423,6 +2459,12 @@ return {
 		cterm_color = "220",
 		name = "hardhat.config.ts",
 	},
+	["poetry.lock"] = {
+		icon = "",
+		color = "#1976d3",
+		cterm_color = "39",
+		name = "poetry.lock",
+	},
 	["procfile"] = {
 		icon = "",
 		color = "#7e57c2",
@@ -3516,19 +3558,19 @@ return {
 		name = "kbuild",
 	},
 	["maven.config"] = {
-		icon = "󰛓",
+		icon = "",
 		color = "#ff7043",
 		cterm_color = "203",
 		name = "maven.config",
 	},
 	["jvm.config"] = {
-		icon = "󰛓",
+		icon = "",
 		color = "#ff7043",
 		cterm_color = "203",
 		name = "jvm.config",
 	},
 	["pom.xml"] = {
-		icon = "󰛓",
+		icon = "",
 		color = "#ff7043",
 		cterm_color = "203",
 		name = "pom.xml",
@@ -5135,6 +5177,12 @@ return {
 		cterm_color = "32",
 		name = "tsconfig.server.json",
 	},
+    ["typst.toml"] = {
+        icon = "",
+        color = "#0397a7",
+        cterm_color = "39",
+        name = "typst.toml",
+    },
 	[".env.defaults"] = {
 		icon = "󰙪",
 		color = "#fbc02d",
