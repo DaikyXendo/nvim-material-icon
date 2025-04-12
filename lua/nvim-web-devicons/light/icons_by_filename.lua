@@ -6809,6 +6809,12 @@ return {
 		cterm_color = "75",
 		name = "windi.config.json",
 	},
+	[".watchmanconfig"] = {
+		icon = "󰮔",
+		color = "#314fff",
+		cterm_color = "63",
+		name = ".watchmanconfig",
+	},
 	[".yarnrc"] = {
 		icon = "",
 		color = "#0188d1",
