@@ -911,6 +911,12 @@ return {
         cterm_color = "32",
         name = "mi",
     },
+    ["m"] = {
+        icon = "",
+        color = "#ff6f00",
+        cterm_color = "208",
+        name = "m",
+    },
     ["cake"] = {
         icon = "",
         color = "#ff7043",
@@ -1710,7 +1716,7 @@ return {
         name = "gql",
     },
     ["h"] = {
-        icon = "",
+        icon = "󰠩",
         color = "#0188d1",
         cterm_color = "32",
         name = "h",
@@ -3681,7 +3687,7 @@ return {
         icon = "󰎁",
         color = "#ff9800",
         cterm_color = "208",
-        name = "mpeg",
+        name = "mpeg", 
     },
     ["mpe"] = {
         icon = "󰎁",
@@ -4373,5 +4379,11 @@ return {
         color = "#ffffff",
         cterm_color = "231",
         name = "uproject",
+    },
+    ["modulemap"] = {
+        icon = "",
+        color = "#8bc34a",
+        cterm_color = "113",
+        name = "modulemap",
     },
 }
