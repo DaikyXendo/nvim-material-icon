@@ -7026,7 +7026,7 @@ return {
         cterm_color = "32",
 		name = "PrivacyInfo.xcprivacy",
 	},
-	[".oxlint.json"] = {
+	[".oxlintrc.json"] = {
 		icon = "󰀱",
         color = "#91ede9",
         cterm_color = "159",
