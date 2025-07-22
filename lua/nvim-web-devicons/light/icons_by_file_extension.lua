@@ -3687,7 +3687,7 @@ return {
         icon = "󰎁",
         color = "#ff9800",
         cterm_color = "208",
-        name = "mpeg", 
+        name = "mpeg",
     },
     ["mpe"] = {
         icon = "󰎁",
