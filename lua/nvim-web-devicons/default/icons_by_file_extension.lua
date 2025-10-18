@@ -4404,4 +4404,10 @@ return {
 		cterm_color = "203",
 		name = "yaml",
 	},
+	["bbx"] = {
+		icon = "",
+		color = "#f54436",
+		cterm_color = "203",
+		name = "bbx",
+	},
 }
