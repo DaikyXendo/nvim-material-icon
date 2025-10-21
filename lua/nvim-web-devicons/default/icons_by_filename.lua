@@ -7020,4 +7020,10 @@ return {
 		cterm_color = "203",
 		name = "commit-msg",
 	},
+	["LaunchScreen.storyboard"] = {
+		icon = "󰈮",
+		color = "#8bc34a",
+		cterm_color = "113",
+		name = "LaunchScreen.storyboard",
+	},
 }
