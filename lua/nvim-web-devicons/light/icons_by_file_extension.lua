@@ -2499,7 +2499,7 @@ return {
         icon = "",
         color = "#007ABF",
         cterm_color = "32",
-        name = "Luau",
+        name = "luau",
     },
 
 	["md"] = {
