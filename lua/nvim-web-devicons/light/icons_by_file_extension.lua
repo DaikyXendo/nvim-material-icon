@@ -2495,6 +2495,13 @@ return {
 		cterm_color = "75",
 		name = "lua",
 	},
+    ["luau"] = {
+        icon = "",
+        color = "#007ABF",
+        cterm_color = "32",
+        name = "Luau",
+    },
+
 	["md"] = {
 		icon = "",
 		color = "#42a5f5",

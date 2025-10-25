@@ -369,6 +369,7 @@ return {
     ["log"] = "log",
     ["lol"] = "lol",
     ["lua"] = "lua",
+    ["luau"] = "luau",
     ["md"] = "md",
     ["markdown"] = "markdown",
     ["rst"] = "rst",
