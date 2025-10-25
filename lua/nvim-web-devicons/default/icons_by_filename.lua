@@ -3527,6 +3527,12 @@ return {
 		cterm_color = "75",
 		name = ".luacheckrc",
 	},
+    [".luaurc"] = {
+        icon = "",
+        color = "#007ABF",
+        cterm_color = "75",
+        name = ".luaurc",
+    },
 	["makefile"] = {
 		icon = "",
 		color = "#ef5351",
